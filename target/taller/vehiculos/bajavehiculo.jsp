@@ -12,7 +12,6 @@
     Vehiculo vehiculo = new Vehiculo();
     vehiculo.setMatricula(matricula);
 
-
     List<Vehiculo> vehiculos = (List) session.getAttribute("vehiculos");
 
     vehiculos.remove(vehiculo);

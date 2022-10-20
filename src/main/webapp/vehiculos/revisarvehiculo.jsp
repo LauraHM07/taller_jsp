@@ -9,8 +9,9 @@
 <%
     String matricula = request.getParameter("matricula");
 
+    // no funciona 
     for(Vehiculo vehiculo: vehiculos) {
-        if (matricula.compareTo(matricula.getMatricula)) {
+        if((matricula.compareTo(vehiculo.getMatricula())) == 0) {
             vehiculo.setRevisado("Y");
         }
     }
