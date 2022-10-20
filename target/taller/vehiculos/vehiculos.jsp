@@ -54,5 +54,10 @@
                 }
             %>
     </table>
+
+    <br/>
+
+    <button><a href="nuevovehiculo.jsp">Nuevo vehiculo</a></button>
+    <button><a href="eliminartodos.jsp">Eliminar todos</a></button>
 </body>
 </html>

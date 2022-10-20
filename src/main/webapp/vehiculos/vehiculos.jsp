@@ -55,7 +55,9 @@
             %>
     </table>
 
-    <button><a href=""></a></button>
-    <button><a href=""></a></button>
+    <br/>
+
+    <button><a href="nuevovehiculo.jsp">Nuevo vehiculo</a></button>
+    <button><a href="eliminartodos.jsp">Eliminar todos</a></button>
 </body>
 </html>

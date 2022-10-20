@@ -7,14 +7,10 @@
 <%@page session="true" %>
 
 <%
-    String matricula = request.getParameter("matricula");
-
-    Vehiculo vehiculo = new Vehiculo();
-    vehiculo.setMatricula(matricula);
 
     List<Vehiculo> vehiculos = (List) session.getAttribute("vehiculos");
 
-    vehiculos.remove(vehiculo);
+    vehiculos.clear();
 
     session.setAttribute("vehiculos", vehiculos);
 
